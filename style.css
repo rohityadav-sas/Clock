@@ -104,3 +104,8 @@ span {
     background: rgba(255, 255, 255, 0.2);
     box-shadow: 0 0 20px 0 white;
 }
+
+.shadow {
+    color: var(--colour);
+    text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+}
