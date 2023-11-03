@@ -9,13 +9,10 @@
 
 body {
     height: 100vh;
-    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background: linear-gradient(to right, rgb(144, 238, 232), lightblue); */
     background: url('clock_bg.jpg');
-    background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
 }
