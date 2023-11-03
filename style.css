@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:ital,wght@0,500;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: linear-gradient(to right, rgb(144, 238, 232), lightblue); */
+    background: url('clock_bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.clock {
+    background: rgba(255, 255, 255, 0.8);
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    position: relative;
+    border: 5px solid blue;
+    box-shadow: 0 0 20px 0 gray;
+}
+
+.text {
+    inset: 7px;
+    position: absolute;
+    text-align: center;
+    transform: rotate(calc(var(--i)*30deg));
+}
+
+span {
+    display: block;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: black;
+    user-select: none;
+    transform: rotate(calc(var(--i)*-30deg));
+}
+
+.hand {
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform-origin: 50% 85%;
+    transform: translate(-50%, 15%);
+    border-radius: 10px;
+}
+
+.hour {
+    width: 9px;
+    height: 34%;
+    background-color: green;
+}
+
+.minute {
+    width: 6px;
+    height: 39%;
+    background-color: blue;
+}
+
+.second {
+    background-color: rgb(255, 104, 104);
+    width: 3px;
+    height: 44%;
+}
+
+.point {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: black;
+    box-shadow: 0 0 20px 0 gray;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 1.3em;
+    letter-spacing: 0.1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 345px;
+    height: 40px;
+    position: absolute;
+    border-radius: 10px;
+    top: -60px;
+    left: 55%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: black;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 20px 0 white;
+}
