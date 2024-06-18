@@ -1,6 +1,16 @@
 # Simple Clock
+    This repository contains a simple clock created with HTML, CSS, and JavaScript. It features a minimalistic design with clock hands for hours, minutes, and seconds.
 
-This repository contains a simple clock created with HTML, CSS, and JavaScript. It features a minimalistic design with clock hands for hours, minutes, and seconds.
+## Table of Contents
+- [Preview](#preview)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+- [Features](#features)
+- [Screenshots](#screenshots)
+- [How it Works](#how-it-works)
+- [Contributing](#contributing)
+- [License](#license)
+- [Author](#author)
 
 ## Preview
 ![preview.png](./assets/preview.png?raw=true)
