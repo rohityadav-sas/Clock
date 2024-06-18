@@ -3,7 +3,7 @@
 This repository contains a simple clock created with HTML, CSS, and JavaScript. It features a minimalistic design with clock hands for hours, minutes, and seconds.
 
 ## Preview
-![Preview.png](https://github.com/rohityadav-sas/Clock/blob/master/Preview.png)
+![preview.png](./assets/preview.png?raw=true)
 
 ## Technologies Used
 - HTML
