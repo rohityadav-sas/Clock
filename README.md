@@ -3,41 +3,31 @@
   
 ## Table of Contents
 - [Preview](#preview)
-- [Technologies Used](#technologies-used)
-- [Getting Started](#getting-started)
 - [Features](#features)
-- [Screenshots](#screenshots)
-- [How it Works](#how-it-works)
-- [Contributing](#contributing)
+- [Installation](#installation)
 - [License](#license)
-- [Author](#author)
+- [Contributing](#contributing)
 
 ## Preview
 ![preview.png](./assets/preview.png?raw=true)
-
-## Technologies Used
-- HTML
-- CSS
-- JavaScript
-
-## Getting Started
-To view the clock, simply open the `index.html` file in a web browser.
 
 ## Features
 - Displays current time with clock hands for hours, minutes, and seconds.
 - Minimalistic and clean design.
 
-## Screenshots
-Include screenshots of the clock in different states or configurations if necessary.
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/rohityadav-sas/Clock
+   ```
 
-## How it Works
-The clock is built using HTML for structure, CSS for styling, and JavaScript for functionality. The hands of the clock rotate based on the current time.
+2. Open index.html in your web browser.
 
-## Contributing
-Contributions are not applicable for this repository as it's a static clock.
 
 ## License
-This project is licensed under the [MIT License](LICENSE).
 
-## Author
-- **Rohit**
+This project is licensed under the ISC License. See the [LICENSE](./LICENSE) file for details.
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
